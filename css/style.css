@@ -4,6 +4,44 @@
     --color-body: #E8E4D2;
     --color-contrast: #FF6855;
 }
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 2rem;
+    line-height:  1.5;
+}
 nav{
     background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.lista_nav{
+    list-style: none;
+    padding: 1rem;
+    display: none;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+}
+.lista_nav li{
+    padding: 1rem;
+}
+.lista_nav li a{
+    color: var(--color-body);
+}
+.lista_nav li a:hover{
+    color: var(--color-contrast);
+}
+@media screen and (min-width: 768px){
+    .lista_nav{
+        display: flex;
+        width: auto;
+        max-width: 100%;
+        opacity: 1;
+    }
+    
 }
