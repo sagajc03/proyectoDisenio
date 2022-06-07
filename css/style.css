@@ -1,8 +1,8 @@
 :root{
     --color-primary: #303848;
-    --color-secundary: #39C3E7;
-    --color-body: #E8E4D2;
-    --color-contrast: #FF6855;
+    --color-secundary: #3d90d2;
+    --color-body: #eedece;
+    --color-contrast: #fb5235;
 }
 html{
     font-size: 62.5%;
