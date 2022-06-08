@@ -33,7 +33,7 @@ body{
 .lista_nav li{
     padding: 1rem;
 }
-.lista_nav li a{
+.lista_nav li a, .lista_nav li{
     color: var(--color-body);
     text-decoration: none;
 }
