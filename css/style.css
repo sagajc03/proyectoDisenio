@@ -8,8 +8,9 @@
     box-sizing: border-box;
 }
 html{
+    /*Un rem es lo que mide el font size :) */
     font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 body{
     font-size: 2rem;
@@ -19,12 +20,19 @@ body{
 /* Inicia nav*/
 #main_nav{
     background-color: var(--color-primary);
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 1rem;
     /* background-image: linear-gradient(var(--color-primary),var(--color-secundary)); */
+}
+.img_nav{
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 13vh;
 }
 .lista_nav{
     list-style: none;
@@ -62,6 +70,7 @@ body{
     align-items: center;
     text-align: center;
     justify-content: space-between;
+    height: 100vh;
 }
 @media (min-width: 992px){
     .hero{
@@ -74,15 +83,15 @@ body{
     .img_container{
         min-width: 40%;
         width:fit-content;
-        max-width: 50%;
+        max-width: 50vw;
     }
     .img_container img{
-        width:max-content;
+        display: block;
     }
     .hero_text{
         min-width: 40%;
         width: fit-content;
-        max-width: 50%;
+        max-width: 50vw;
     }
 }
 .img_container{
@@ -91,12 +100,14 @@ body{
 .img_container img{
     width: 100%;
     position: relative;
+    display: block;
     box-shadow: var(--color-primary);
     border-radius: 2rem;
 }
 .hero_text{
     color: var(--color-primary);
     max-width: 768px;
+    font-weight: 300;
 }
 /* termina hero */
 /*inicia boton */
