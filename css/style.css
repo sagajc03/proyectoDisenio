@@ -25,7 +25,10 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky; /* Se pega arriba, que inutil yei  */
+    top: .1px;
     padding: 1rem;
+    z-index: 10;
     /* background-image: linear-gradient(var(--color-primary),var(--color-secundary)); */
 }
 .img_nav{
@@ -33,6 +36,7 @@ body{
     padding: 0;
     margin: 0;
     height: 13vh;
+    box-shadow: 0 5px 10px -5px rgb(0,0,0,.3);
 }
 .lista_nav{
     list-style: none;
@@ -96,6 +100,7 @@ body{
 }
 .img_container{
     max-width: 768px;
+    box-shadow: 0 7px 15px -7px rgb(0,0,0,.3);
 }
 .img_container img{
     width: 100%;
