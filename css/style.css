@@ -109,7 +109,10 @@ body{
     box-shadow: var(--color-primary);
     border-radius: 2rem;
 }
-.hero_text h1{
+.hero_text{
+    font-size: 1.2em;
+}
+.hero_text h2{
     font-style: italic;
 }
 
@@ -131,11 +134,15 @@ body{
 /*termina boton */
 .content{
     width: 90%;
-    max-width: 1000px;
-    margin: 15px auto;
+    max-width: 1500px;
+    margin: 0 auto;
     padding: 0.1px;
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    /* background-image: linear-gradient(rgb(251, 82, 53,0.3),rgb(61, 144, 210,0.3)); */
+}
+.content h6{
+    font-size: 1em;
 }
 /* inicia footer*/
 .lista_foot{
