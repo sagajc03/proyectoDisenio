@@ -133,6 +133,20 @@ body{
     background-color: var(--color-secundary);
     color: var(--color-contrast);
 }
+.btn{
+    padding: 2rem 3rem;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: var(--color-primary);
+    color: var(--color-contrast);
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: var(--color-secundary);
+    color: var(--color-contrast);
+}
 /*termina boton */
 .content{
     width: 90%;
