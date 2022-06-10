@@ -1,3 +1,4 @@
 # proyectoDisenio
 Proyecto de diseño de interfaces UAQ
-Hola Mundo
+Ay diomio
+*Proyecto escolar*
