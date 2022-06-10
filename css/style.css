@@ -38,6 +38,7 @@ body{
     height: 10vh;
     border-radius: 1em;
     box-shadow: 0 5px 10px -5px rgb(0,0,0,.3);
+    /* box-shadow: offsset-x offset-y blur (esparcimiento) color*/
 }
 .lista_nav{
     list-style: none;
